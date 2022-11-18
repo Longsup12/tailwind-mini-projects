@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .box-container{
+        @apply max-w-xs m-auto p-2 text-center text-white rounded-[1.4rem] items-center
+    }
+
+    .btn-primary{
+        @apply flex h-10 m-auto rounded-md justify-center items-center ;
+    }
+}
