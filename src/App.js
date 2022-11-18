@@ -1,7 +1,7 @@
 import './App.css';
-import Card from './components/Card/Card';
+import Card from './components/Bai-1/Card';
 import Navbar from './components/NavBar/Navbar';
-import Pricing from './components/Pricing Grids/Pricing';
+import Pricing from './components/Bai-2/Pricing';
 
 function App() {
   return (
